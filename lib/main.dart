@@ -1,3 +1,6 @@
+import 'package:bpp_shop/component/Add_new_Address.dart';
+import 'package:bpp_shop/model/dist_list_api.dart';
+import 'package:bpp_shop/google_map/google-map_home-screen.dart';
 import 'package:bpp_shop/home_page.dart';
 import 'package:bpp_shop/model/product_list.dart';
 
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         debugShowCheckedModeBanner: false,
-        home: HomePage(),
+        home:Address(),
       ),
     );
   }
